@@ -1,0 +1,26 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      golang: 1.15
+  pre_build:
+    commands:
+      - echo "Pre Build Phase.."
+      # - go get github.com/gofiber/fiber/v2
+  build:
+    commands:
+      - echo "Build Phase.."
+      - go build app.go
+  post_build:
+    commands:
+      - echo "Post Build Phase.."
+      - ls
+
+artifacts:
+  files:
+    - app
+    - scripts/*.sh
+    - appspec.yml
+  discard-paths: yes
+
