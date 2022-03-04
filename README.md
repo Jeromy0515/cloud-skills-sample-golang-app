@@ -7,7 +7,7 @@
 
 ## How to make go.mod/go.sum files
 
-if you don't have go.mod/go.sum files, install fiber using this command first
+if you don't have go.mod/go.sum files, install fiber using this command first and import to your application
 ```
 $ go get github.com/gofiber/fiber/v2
 ```
