@@ -5,7 +5,7 @@
 ##### Health Check Path : /health
 ##### Port : 3000
 ## How to make go.mod/go.sum files
-Create go.mod file
+create go.mod file
 ```
 usage : go mod init [module-name]
 
@@ -14,7 +14,7 @@ $ ls
 go.mod
 ```
 
-Add module requirements and sums
+add module requirements and sums
 ```
 usage : go mod tidy [-v]
  
