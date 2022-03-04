@@ -10,7 +10,7 @@ func main() {
 	})
 
 	app.Get("/health", func(c *fiber.Ctx) error {
-		return c.SendString("{ \"status\" : \"up\" }")
+		return c.SendString("{ \"status\" : \"ok\" }")
 	})
 
 	app.Listen("0.0.0.0:3000")
