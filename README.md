@@ -1,7 +1,7 @@
 # Cloud Skills Sample GoLang Application
 ### Language/Framework
 ##### GoLang/Fiber
-##### GoLang Version : 1.15
+##### GoLang Version : 1.17
 ##### Health Check Path : /health
 ##### Port : 3000
 
