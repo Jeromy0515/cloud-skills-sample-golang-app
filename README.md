@@ -34,7 +34,7 @@ go.mod go.sum
 
 you can build using `go build` command
 ```
-usage : go build [file name]
+usage : go build [file-name]
 
 $ go build app.go
 ```
