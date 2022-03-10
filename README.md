@@ -39,7 +39,7 @@ usage : go build [file-name]
 $ go build app.go
 ```
 
-## How to Test
+## How to test
 you can test application using `go test` command
 
 
