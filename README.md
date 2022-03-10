@@ -38,3 +38,14 @@ usage : go build [file-name]
 
 $ go build app.go
 ```
+
+## How to Test
+you can test application using `go test` command
+
+
+if you use `-v flag` command, you can show all test results  
+```
+usage: go test [-v flag]
+
+$ go test -v flag
+```
