@@ -43,9 +43,9 @@ $ go build app.go
 you can test application using `go test` command
 
 
-if you use `-v flag` command, you can show all test results  
+if you use `-v` option, you can show all test results  
 ```
-usage: go test [-v flag]
+usage: go test [-v]
 
-$ go test -v flag
+$ go test -v
 ```
