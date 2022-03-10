@@ -18,6 +18,12 @@ phases:
       - go test -v
       - ls
 
+reports:
+  arn:aws:codebuild:ap-northeast-2:348334976056:report-group/codebuild-report-group:
+    files:
+      - '**/*'
+    base-directory: 'build/test-results/test'
+
 artifacts:
   files:
     - app
